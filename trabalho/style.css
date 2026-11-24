@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #080817, #19112f, #10152d);
+  color: white;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
+.container {
+  background: #151426;
+  width: 100%;
+  max-width: 900px;
+  padding: 35px;
+  border-radius: 18px;
+  border: 1px solid #7848d8;
+  box-shadow: 0 0 25px rgba(130, 70, 255, 0.25);
+}
+
+h1 {
+  text-align: center;
+  color: #a879ff;
+  font-size: 32px;
+  margin-bottom: 10px;
+  letter-spacing: 3px;
+}
+
+.subtitulo {
+  text-align: center;
+  color: #b9b4cb;
+  margin-bottom: 30px;
+}
+
+h2 {
+  color: #c7a6ff;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+/* Tabela */
+.tabela-wrapper {
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  min-width: 600px;
+  border-collapse: collapse;
+  text-align: left;
+  font-size: 14px;
+}
+
+th,
+td {
+  border: 1px solid #514477;
+  padding: 13px;
+}
+
+thead th {
+  background: linear-gradient(90deg, #7138cf, #a04cff);
+  color: white;
+}
+
+tbody td {
+  background: #25223a;
+  color: #ded5ff;
+}
+
+tbody tr:nth-child(even) td {
+  background: #1d1b30;
+}
+
+tbody tr:hover td {
+  background: #342d52;
+}
+
+.rodape {
+  text-align: center;
+  color: #77718d;
+  font-size: 12px;
+  margin-top: 25px;
+}
+
